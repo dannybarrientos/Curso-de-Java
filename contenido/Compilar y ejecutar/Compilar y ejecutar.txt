@@ -1,0 +1,16 @@
+Compilar y ejecutar una clase en java
+
+Recuerda que primero debes compilar y luego ejecutar y que la clase que ejecutas debe tener un método main.
+
+Comando para compilar es:
+
+ javac nombreClase.java
+
+Comando para ejecutar es:
+
+ java nombreClase
+
+
+Twitter @cedaniel200
+GitHub cedaniel200
+Blog https://cedaniel200.blogspot.com.co/
