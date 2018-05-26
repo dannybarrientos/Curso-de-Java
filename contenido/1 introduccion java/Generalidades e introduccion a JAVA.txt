@@ -1,0 +1,15 @@
+¿Qué es Java?
+
+Java es un lenguaje de programación y una plataforma informática comercializada por primera vez en 1995 por Sun Microsystems y comprada posteriormente por oracle.
+
+Mencionemos algunas características:
+
+Es de propósito general es decir permite crear todo tipo de aplicaciones, desde aplicaciones web, pasando por móviles, de escritorio entre otras.
+
+Independencia de plataforma, es decir, escribes el código una vez y puede ejecutarse en múltiples sistemas operativos. Para lograr esto, el código fuente se compila generando un código conocido como “bytecode” (específicamente Java bytecode). El bytecode es ejecutado entonces en la máquina virtual de Java (JVM), que es un programa escrito en código nativo de la plataforma destino, que interpreta y ejecuta el código.
+
+Lenguaje bajo el paradigma de la programación orientada a objetos. En la programación orientada a objetos, se puede decir que todo es representado por objetos, cada objeto tiene su propia funcionalidad, estos objetos manipulan los datos que reciben para obtener datos de salida.
+
+Twitter @cedaniel200
+GitHub cedaniel200
+Blog https://cedaniel200.blogspot.com.co/
