@@ -1,0 +1,37 @@
+Estructura de una clase
+
+En la programación orientada a objetos hay dos conceptos fundamentales las clases y objetos. En java las clases son los componentes básicos. 
+Cuando se define una clase lo que hacemos es describir todas sus partes y características. Para usar las clases, se tiene que crear objetos 
+por esta razón se puede decir que una clase es un molde o plantilla del cual creamos objetos. Un objeto es una instancia de la clase. Todos 
+los diferentes objetos de todas las diferentes clases representan el estado del programa.
+
+La mayoría de las veces, cada clase de Java se define en su propio archivo por ejemplo Persona.java. Por lo general, es público, lo que 
+significa que cualquier código puede llamarlo. Curiosamente, Java no requiere que la clase sea pública. Incluso puedes poner dos clases en 
+el mismo archivo, Cuando lo haces, como máximo una de las clases en el archivo puede ser pública. Si tiene una clase pública, debe coincidir 
+con el nombre del archivo.
+
+Las clases se componen de dos partes, los campos también llamados atributos o variables de clase y los métodos o funciones.
+
+dentro de una clase podemos agregar comentarios que son líneas que el compilador omitirá y que sirven para de cierta forma documentar el código. 
+Existen tres tipo de comentarios en java:
+
+De una línea inicia con //
+
+// Esto es un comentario de una linea 
+
+De múltiples líneas que empieza con /* y finaliza con */ Las personas y algunos IDE a menudo escriben un asterisco (*) al comienzo de cada línea 
+para que sea más fácil de leer
+
+/*
+*esto es un
+*comentario de 
+*varias lineas
+*/
+ 
+Por último tenemos los comentarios de  Javadoc es similar al de múltiples líneas con la diferencia de que este inicia con /** esta sintaxis especial 
+le dice a la herramienta Javadoc que preste atención al comentario. Esta herramienta permite generar documentación a partir de estos comentarios.
+
+
+Twitter @cedaniel200
+GitHub cedaniel200
+Blog https://cedaniel200.blogspot.com.co/
