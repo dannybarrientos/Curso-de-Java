@@ -1,0 +1,22 @@
+Paquetes en java
+
+Java viene con miles de clases integradas, y hay muchos otras que como desarrolladores construimos. 
+Con todas ese mundo de clases, Java necesita una forma de organizarlas, para esto es que java utiliza los paquetes,
+que se manejan como si fueran un gabinete de archivos, por lo cual java coloca las clases en paquetes convirtiéndose esto en agrupaciones lógicas.
+Java Necesita que le diga qué paquetes buscar para encontrar el código.
+Una de las razones para usar paquetes es para que los nombres de clase no tengan que ser únicos en todo Java.
+
+Para especificar un paquete en java se debe agregar al comienzo de la clase la palabra reservada package seguido del nombre del paquete 
+y finalizado por punto y coma.
+
+package co.cedaniel200.ejemplo;
+
+Por convención todos los paquetes se escribirán en minúsculas y sin utilizar caracteres especiales. 
+El paquete base queda definido como el dominio de la organización invertido por ejemplo si el dominio es 
+google.com.co el nombre del paquete base seria co.com.google, en este paquete no se definirá ninguna clase y a partir de este 
+se agregan los paquetes necesarios para la organización del proyecto
+
+
+Twitter @cedaniel200
+GitHub cedaniel200
+Blog https://cedaniel200.blogspot.com.co/
