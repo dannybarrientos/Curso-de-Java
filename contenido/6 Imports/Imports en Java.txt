@@ -1,0 +1,30 @@
+Imports en Java
+
+Los import en java son la forma para referenciar y poder utilizar las clases que están en otros paquetes, 
+ya que las clases que estén en el mismo paquete no son necesarias que se importen para ser utilizadas
+porque java por defecto busca automáticamente en el paquete actual otras clases.
+
+Como se pueden dar cuenta en la clase Aplicación estamos utilizando clases de java y no hemos
+importado ninguna clase esto se da porque hay un paquete especial en Java llamado java.lang 
+este paquete es especial ya que se importa automáticamente. Aún puede escribir este paquete en una declaración de importación no es necesario.
+
+para importar una clase utilizamos la palabra reservada import que debe ir por debajo de la declaración del paquete y antes de 
+la estructura de la clase.
+
+import java.util.Random; // clase que nos permite generar por ejemplo números aleatorios
+
+Puede usar un atajo para importar todas las clases en un paquete:
+
+import java.util.*; // Importa todas las clases dentro del paquete java.util
+
+Ahora sí tenemos lo siguiente 
+
+import java.lang.*;
+import java.lang.System;
+
+sería redundancia en los import lo mismo ocurre cuando importamos una clase que está en el mismo paquete que la clase que lo importa
+
+
+Twitter @cedaniel200
+GitHub cedaniel200
+Blog https://cedaniel200.blogspot.com.co/
