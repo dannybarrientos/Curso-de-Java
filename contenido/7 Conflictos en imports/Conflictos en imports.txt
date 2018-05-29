@@ -1,0 +1,49 @@
+Conflictos en imports
+
+Una de las razones para usar paquetes es para que los nombres de clase no tengan que ser únicos en todo Java. 
+Esto significa que a veces necesitaremos importar una clase que esté en otros paquetes. 
+Un ejemplo común de esto es la clase Date. Java proporciona implementaciones de java.util.Date y java.sql.Date
+
+public class ClaseEjemplo {
+	Date date;
+}
+
+Si queremos importar la clase Date se podría escribir import java.util.*; o import java.util.Date;. 
+Los casos difíciles surgen cuando otras importaciones están presentes:
+
+Ejemplos que no compilan
+
+import java.util.*;
+import java.sql.*;
+
+
+import java.util.Date;
+import java.sql.*;
+
+
+import java.util.Date;
+import java.sql.Date;
+
+Si realmente necesita usar dos clases con el mismo nombre, puede elegir uno para usar en el import
+y usar el nombre de la otra clase completamente calificada (el nombre del paquete, un punto y el nombre de la clase) 
+para especificar que es especial. Por ejemplo:
+
+import java.util.Date;
+
+public class ClaseEjemplo {
+	Date date;
+	java.sql.Date sqlDate;
+}
+
+O no podría tener una importación y usar siempre el nombre de clase completamente calificado:
+
+public class ClaseEjemplo {
+	java.util.Date date ;
+	java.sql.Date sqlDate;
+}
+
+
+
+Twitter @cedaniel200
+GitHub cedaniel200
+Blog https://cedaniel200.blogspot.com.co/
