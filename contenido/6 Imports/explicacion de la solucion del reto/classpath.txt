@@ -1,0 +1,4 @@
+javac -cp ".;D:/java/com/ejemplo/model/Persona" com/ejemplo/aplicacion/Aplicacion.java
+
+Classpath es un parámetro en la Máquina Virtual de Java o el compilador de Java 
+que especifica la ubicación de las clases y paquetes definidos por el usuario
