@@ -1,0 +1,36 @@
+Constructores
+
+Para poder hacer algo útil en nuestro programa debemos crear objetos.
+Para crear una instancia de una clase, todo lo que tienen que hacer es:
+Primero declarar el tipo que vas a crear (Persona) y le das un nombre a la variable (cesar). 
+Luego, escribe la palabra recervada new seguido de Persona(). Por ejemplo:
+
+Persona cesar = new Persona();
+
+Persona() parece un método ya que va seguido de paréntesis. Se llama constructor, 
+que es un tipo especial de método que crea un nuevo objeto. 
+
+Ahora es el momento de definir a un constructor propio:
+
+public class Persona {
+	public Persona(){
+		System.out.println("Mi constructor");
+	}
+}
+
+Hay dos puntos clave a tener en cuenta sobre el constructor: 
+
+El nombre del constructor coincide con el nombre de la clase 
+No hay ningún tipo de devolución.
+
+El propósito de un constructor es inicializar campos, aunque puede poner cualquier código allí.
+Otra forma de inicializar los campos es hacerlo directamente en la línea en la que están declarados.
+
+Para la mayoría de las clases, no es necesario especificar un constructor; el compilador proporcionará 
+un constructor predeterminado de "no hacer nada".
+
+
+
+Twitter @cedaniel200
+GitHub cedaniel200
+Blog https://cedaniel200.blogspot.com.co/
