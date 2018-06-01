@@ -1,0 +1,25 @@
+Sobrecarga de constructores
+
+Un constructor puede recibir parámetros y una clase puede tener varios constructores que reciban 
+diferente cantidad de parámetros, esto se llama sobrecarga de constructores.
+
+
+public class ClaseEjemplo {
+
+	public ClaseEjemplo(){
+		System.out.println("Constructor por defecto");
+	}
+	
+	public ClaseEjemplo(String algo){
+		System.out.println("Constructor sobrecargado con string");
+	}
+	
+	public ClaseEjemplo(String algo, String otraCosa){
+		System.out.println("Constructor sobrecargado con dos Strings");
+	}
+}
+
+
+Twitter @cedaniel200
+GitHub cedaniel200
+Blog https://cedaniel200.blogspot.com.co/
